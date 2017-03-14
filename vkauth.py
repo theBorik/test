@@ -2,6 +2,7 @@
 import vk
 import datetime
 
+#asdasda
 session = vk.Session()
 vk_api = vk.API(session)
 
