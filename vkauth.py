@@ -1,15 +1,13 @@
 # -*- coding: utf-8 -*-
 import vk
 import datetime
-#TEST TEST
+
 session = vk.Session()
 vk_api = vk.API(session)
 
 a = [i for i in range(2000,2005)]
 
 profiles = vk_api.users.get(user_ids=(a), fields='online, sex, last_seen, screen_name, status, first_name, last_name')
-
-print range(len(a))
 
 for i in range(len(profiles)):
 	print u'Адрес страницы:', profiles[i]['screen_name']
