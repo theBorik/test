@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import vk
 import datetime
-#New commit
+
 session = vk.Session()
 vk_api = vk.API(session)
 
