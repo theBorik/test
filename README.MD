@@ -1,1 +1,0 @@
-The Vk api Testers.
